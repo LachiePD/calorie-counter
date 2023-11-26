@@ -1,0 +1,18 @@
+
+THE VISION:
+
+This service will be used for tracking calorie intake during day, on the phone. 
+
+Calorie tracking can be annoying, this is to make it easy. 
+
+This app will be used for both long and short-term tracking. Up to user discretion.
+
+
+INITIAL GOALS:
+1. Site loads on phones, user can input calories. This input is saved.
+
+2. Past input can be viewed. Regardless of account creation.
+
+
+3. Account creation. Links to email, incase loss of password.
+
