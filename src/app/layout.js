@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
 
 </Head>
-      <body className=" flex h-full w-full">
+      <body className="flex h-full w-full">
         {children}
       </body>
     </html>

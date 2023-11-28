@@ -1,7 +1,9 @@
 import CardContainer from "../statefulComponents/CardContainer";
 import PlusButtonContainer from "../statefulComponents/PlusButtonContainer";
 const Home = (props) => {
-  const selectDisplay = () => {
+ 
+
+	const selectDisplay = () => {
     if (props.countingCalories) {
       return (
         <CardContainer
@@ -29,10 +31,7 @@ const Home = (props) => {
           <li>This will be a list each input of calories</li>
         </ul>
 
-	  {/*the  styling below should be in the relevant component, they should decide where they sit inside the cointaing div, probably*/}
-        <div className="absolute bottom-0 right-0 cursor-pointer">
           {selectDisplay()}
-        </div>
       </div>
     </div>
   );
